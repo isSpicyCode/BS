@@ -15,6 +15,7 @@ header {
     width: 100%;
     margin: 0;
     background-color: #ffffff;
+    z-index: 1;
 }
 
 .header-top {
@@ -60,13 +61,15 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 10rem 1rem 5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.5);
+    box-shadow: 1px 15px 17px -9px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 15px 17px -9px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 15px 17px -9px rgba(0,0,0,1);
 }
 
 .menu-logo a {
     text-decoration: none;
-    font-size: 2.5rem;
-    margin-right: 5rem;
+    font-size: 2rem;
+    margin-right: 3rem;
     color: #222;
     font-weight: 600;
     cursor: pointer;
@@ -88,7 +91,6 @@ main {
     width: 100%;
     height: auto;
     object-fit: cover;
-    background-size: cover;
     margin: 0 auto;
 }
 
@@ -101,7 +103,7 @@ main {
     color: #f1f1f1;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-decoration: none;
     cursor: pointer;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.705);
@@ -125,13 +127,13 @@ main {
 
 .presentation h2, .services h2 {
     margin-bottom: 2rem;
-    font-size: 4rem;
+    font-size: 3.2rem;
     position: relative;
     /* display: inline-block; */
 }
 
 .presentation p {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     line-height: 1.4;
     text-align:start;
 }
